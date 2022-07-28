@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "autoclickerHH"
+version = "0.1.0"
+description = "Autoclicker for hh.ru"
+authors = ["ck1e <ck1e.wk@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.3.0"
+webdriver-manager = "^3.8.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
